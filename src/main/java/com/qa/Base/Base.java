@@ -48,8 +48,8 @@ public class Base {
 		else if(BrowserName.equalsIgnoreCase("firefox"))
 		{
 			System.setProperty("webdriver.firefox.marionette",
-					"C:\\Programs\\GekoDriver\\geckodriver-v0.24.0-win64\\GekoDriver.exe");
-			 driver = new FirefoxDriver();
+					"C:\\Selenium\\All_Downloads_For_Selenium\\GekoDriver\\GekoDriver.exe");
+					driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
